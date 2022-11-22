@@ -1,11 +1,8 @@
 @charset "UTF-8";
 
 .login-area {
-  min-height: 47rem;
+  min-height: 50rem;
   width: 50%;
-  background-color: #e1e1e1;
-  border: 1px solid #c3c3c3;
-  box-shadow: 16px 0px 32px 5px #322d2d6a;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,6 +16,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
+  box-shadow: 14px 0px 38px 10px #4f4b4b67;
 }
 
 .group:first-child {
@@ -38,7 +36,7 @@
 }
 
 .group-info img.logo {
-  width: 80%;
+  height: 4rem;
 }
 
 .profile-photo {
@@ -78,4 +76,54 @@
 
 .login-logout :nth-child(2) {
   color: #199bec;
+}
+
+.group:nth-child(2) {
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+
+.group:nth-child(2) span {
+  color: #199bec;
+}
+
+.download-area {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+
+.download-links {
+  width: 100%;
+  padding: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1.6rem;
+}
+
+.download-links a {
+  height: 5rem;
+  width: 15rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.download-links a:first-child {
+  background-image: url(/images/apple-button.png);
+}
+
+.download-links a:nth-child(2) {
+  background-image: url(/images/googleplay-button.png);
 }
