@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  .phone-area {
+    display: none;
+  }
+
+  .login-area {
+    width: 100%;
+  }
+
+  .download-links {
+    display: flex;
+    flex-direction: column;
+  }
+}
