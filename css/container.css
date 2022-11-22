@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.phone-area {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-area img {
+  height: 70rem;
+}
+
